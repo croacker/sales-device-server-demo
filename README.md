@@ -1,4 +1,4 @@
-# sales-device-server
+# sales-devices-server
 ## О'б
 1. Запустить консоль
 2. Выбрать удобный каталог и перейти в него
