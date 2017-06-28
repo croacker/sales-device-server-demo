@@ -13,4 +13,4 @@
 Алтернатива: curl -H "Content-Type: application/json" -X POST -d '{"name":"Aura-6900","configuration":"serial://rs.232.true.1990"}' http://127.0.0.1:8082/devices
 8. Чтобы убедиться что устройство добавлено в список.
 В браузере выполнить запрос по адресу http://127.0.0.1:8082/devices будет отображен JSON-массив устройств.
-Алтернатива: curl -X GET http://127.0.0.1:8082/devices
+> Алтернатива: curl -X GET http://127.0.0.1:8082/devices
