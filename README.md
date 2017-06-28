@@ -1,5 +1,5 @@
 # sales-device-server
-# О'б
+## О'б
 1. Запустить консоль
 2. Выбрать удобный каталог и перейти в него
 3. Клонировать проект - выполнить: git clone https://github.com/croacker/sales-device-server
