@@ -8,7 +8,7 @@ import lombok.ToString;
  * DTO
  */
 @ToString
-public class PoinrOfSale implements Device {
+public class PointOfSale implements Device {
 
     @Getter
     @Setter

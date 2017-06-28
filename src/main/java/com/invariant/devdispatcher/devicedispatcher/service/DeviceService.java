@@ -2,7 +2,7 @@ package com.invariant.devdispatcher.devicedispatcher.service;
 
 import com.invariant.devdispatcher.devicedispatcher.dto.Device;
 import com.invariant.devdispatcher.devicedispatcher.dto.DraftPrinter;
-import com.invariant.devdispatcher.devicedispatcher.dto.PoinrOfSale;
+import com.invariant.devdispatcher.devicedispatcher.dto.PointOfSale;
 import com.invariant.devdispatcher.devicedispatcher.dto.WeighingMachine;
 import org.springframework.stereotype.Component;
 
@@ -25,7 +25,7 @@ public class DeviceService {
         draftPrinter.setConfiguration("serial://rs.232.true.1880");
         devices.add(draftPrinter);
 
-        Device poinrOfSale = new PoinrOfSale();
+        Device poinrOfSale = new PointOfSale();
         poinrOfSale.setName("ATOL Frontol");
         poinrOfSale.setConfiguration("http://192.168.0.55:443");
         devices.add(poinrOfSale);
